@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Barriecito|Righteous&display=swap');
+
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+body {
+    
+    margin: 0px;
+    padding: 0px;
+    font-family: Righteous, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* HEADER ------------------------------------------------------*/
+.header .header-img{
+    background-image: url(../IMG/back8.jpg);
+}
+
+.header .logo img{
+    height: 9vh;
+    
+ 
+}
+
+
+.container-header{
+    display: flex;
+    flex-wrap: wrap;
+    height: 12vh;
+    justify-content: space-around;
+}
+
+.header .container-header>li{
+    list-style-type: none;
+}
+
+.header .container-header .site-name{
+    font-size: 60px;
+}
+.header .container-header .search {
+    font-size: 20px;
+}
+
+.header .container-header .login{
+    font-size: 20px;
+}
+
+/* NAV ----------------------------------------------------------------- */
+
+.nabvar .nav-img{
+    background-image: url(../IMG/back3.jpg);
+}
+
+.container-nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;   
+}
+
+.container-nav>li{
+    font-size: 40px; 
+    list-style-type: none;
+    margin: 10px;
+}
+
+.container-nav>li>a{
+    text-decoration: none;
+}
+
+.container-nav>li>a:hover{
+    color:azure;
+    background-color: darkgrey;
+
+}
+
+
+/* MAIN -------------------------------------------------------------------*/ 
+main {
+
+    height: 65vh;
+
+}
+
+main>img{
+    height: 65vh;
+    width: 100vw;
+
+}
+
+/* FOOTER ------------------------------------------------------------------ */
+
+footer {
+    height: 10vh;
+
+
+}
+
+footer>img  {
+    height: 10vh;
+    width: 100vw;
+}
