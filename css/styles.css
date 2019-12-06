@@ -176,38 +176,52 @@ body {
 }
 
 
-/************************** LOGIN **************************/
+/************************** MAIN **************************/
 
 
 /************************** HEADER **************************/
 
-.general {
-  width: 66%;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  margin: 0 auto;
+
+
+.up-header div {
+  display: grid;
+  grid-auto-columns: 1fr 1fr 1fr 1fr;
+
+  background: grey;
+} 
+
+.up-header div {
+  
+  border: 2px solid  black;
+  padding: 2em;
 }
 
-.header {
-  display: flex;
-  display: -ms-flexbox;
+.films {
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr;
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+  padding: 8em;
+  
 }
 
-.header-logo {
-    background-image: url(../img/logo.png);
-    background-size: cover;
-    border-radius: 12px;
-    margin: auto 0 44px;
-    height: 86px;
-    width: 86px;
+.films div {
+  background-color: burlywood;
+  border: 2px solid  black;
+
 }
 
-.header-title {
-  color: #5987CC;
-  display: none;
+.films img {
+  align-items: auto;
+
+
+
+
 }
+
+
+
+
 
 
 
