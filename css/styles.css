@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Barriecito|Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
 
 *, *:before, *:after{
     box-sizing: border-box;
@@ -7,8 +7,10 @@
 body {
   margin: 0px;
   padding: 0px;
-  font-family: Righteous, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-color: #f0f0f0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;;
+  font-size: 18px;
+  background-color: #ebc0c0;
 }
 
 
@@ -181,20 +183,51 @@ body {
 
 /************************** HEADER **************************/
 
-
-
-.up-header div {
-  display: grid;
-  grid-auto-columns: 1fr 1fr 1fr 1fr;
-
+.up-header  {
+  display: flex;
+  justify-content: space-around;
   background: grey;
-} 
-
-.up-header div {
-  
   border: 2px solid  black;
   padding: 2em;
+} 
+
+
+
+.up-header div {
+  display: inline-block;
+  background: grey;
+  border: solid black 1px;
+  padding: 2em;
+} 
+
+
+
+
+/*********************************** NAV *******************************/
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  
 }
+
+.nav-links li {
+
+padding: 10px 50px;
+}
+
+.nav-links li a{
+  transition: all 0.3s ease 0s;
+  }
+
+.nav-links li a:hover{
+  color: #0088a9;
+  }
+
+
+
+
+/********************************* MAIN *************************/
 
 .films {
   display: grid;
@@ -208,17 +241,18 @@ body {
 .films div {
   background-color: burlywood;
   border: 2px solid  black;
+  display: flex;
+  justify-content: space-evenly;
 
 }
 
 .films img {
   align-items: auto;
 
-
-
-
 }
 
+
+/******************************** FOOTER *******************************/
 
 
 
