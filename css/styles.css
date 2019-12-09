@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 *, *:before, *:after{
     box-sizing: border-box;
@@ -7,7 +7,7 @@
 body {
   margin: 0px;
   padding: 0px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 600;;
   font-size: 18px;
   background-color: #D9DBF1;
