@@ -234,15 +234,14 @@ main {
 .films {
   display: grid;
   grid-template-columns:  1fr 1fr 1fr;
-  grid-row-gap: 5px;
-  grid-column-gap: 5px;
+  grid-row-gap: 30px;
+  grid-column-gap: 30px;
   padding: 8em;
   
 }
 
 .films div {
-  background-color: #0B3948;
-  border: 2px solid  black;
+
   display: flex;
   justify-content: space-evenly;
 
