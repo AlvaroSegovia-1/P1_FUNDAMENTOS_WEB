@@ -10,7 +10,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;;
   font-size: 18px;
-  background-color: #ebc0c0;
+  background-color: #D9DBF1;
 }
 
 
@@ -186,34 +186,32 @@ body {
 .up-header  {
   display: flex;
   justify-content: space-around;
-  background: grey;
+  background: #D0CDD7;
   border: 2px solid  black;
-  padding: 2em;
+  padding: 30px;
 } 
 
 
 
-.up-header div {
-  display: inline-block;
-  background: grey;
-  border: solid black 1px;
-  padding: 2em;
-} 
 
 
 
 
 /*********************************** NAV *******************************/
+
+nav {
+  background-color: #ACB0BD;
+  padding: 2px;
+}
+
 .nav-links {
   list-style: none;
   display: flex;
   justify-content: space-around;
-  
 }
 
 .nav-links li {
-
-padding: 10px 50px;
+  padding: 10px 50px;
 }
 
 .nav-links li a{
@@ -221,7 +219,7 @@ padding: 10px 50px;
   }
 
 .nav-links li a:hover{
-  color: #0088a9;
+  color: #0B3948;
   }
 
 
@@ -229,6 +227,9 @@ padding: 10px 50px;
 
 /********************************* MAIN *************************/
 
+main {
+  background-color: #416165;
+}
 .films {
   display: grid;
   grid-template-columns:  1fr 1fr 1fr;
@@ -239,7 +240,7 @@ padding: 10px 50px;
 }
 
 .films div {
-  background-color: burlywood;
+  background-color: #0B3948;
   border: 2px solid  black;
   display: flex;
   justify-content: space-evenly;
