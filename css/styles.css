@@ -214,12 +214,12 @@ nav {
   padding: 10px 50px;
 }
 
-.nav-links li a{
+.navbar-item a{
   transition: all 0.3s ease 0s;
   text-decoration: none;;
   }
 
-.nav-links li a:hover{
+.navbar-item a:hover{
   color: #0B3948;
   }
 
