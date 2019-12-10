@@ -202,6 +202,7 @@ body {
 nav {
   background-color: #ACB0BD;
   padding: 2px;
+  width: 100%;
 }
 
 .nav-links {
@@ -210,16 +211,16 @@ nav {
   justify-content: space-around;
 }
 
-.nav-links li {
+.nav-links {
   padding: 10px 50px;
 }
 
-.navbar-item a{
+.navbar-item > a{
   transition: all 0.3s ease 0s;
   text-decoration: none;;
   }
 
-.navbar-item a:hover{
+.navbar-item > a:hover{
   color: #0B3948;
   }
 
