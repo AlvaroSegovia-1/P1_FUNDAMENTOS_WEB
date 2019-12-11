@@ -4,44 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Detail</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Main</title>
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
+
+  
     <header class="header">
-        <div class="header-img">
-            <ul class="container-header">
-                <li class="logo"><img src="img/icon1.svg" alt=""></li>
-                <li class="site-name"><a>CaMeLbAcK CiNeMa</a></li>
-                <li class="search"><a>SEARCH</a></li>
-                <li class="login"><a>Login</a></li>
-            </ul>
-        </div>
+
+        <div class="up-header">
+          
+          <div class="logo">LOGO</div>
+          
+          <div class="form">
+            <form action="/search.html" autocomplete="off" id="search-form" method="get">
+              <input name="q" placeholder="Search here..." size="15" type="text">
+              <input id="button-submit" type="submit" value="Search">
+            </form>
+          </div>
+          <div class="logout">
+            <a href="#"><button>LogOut</button></a>
+
+            </a>
+          </div>
+
+      </div>
+    
+
+      <nav>
+        <ul class="nav-links">
+          <li class="navbar-item"><a href="./detail.html">NEWS</a></li>
+          <li class="navbar-item"><a href="./detail.html">FILMS</a></li>
+          <li class="navbar-item"><a href="./detail.html">SERIES</a></li>
+          <li class="navbar-item"><a href="./detail.html">DOCS</a></li>
+          <li class="navbar-item"><a href="./detail.html">KIDZ</a></li>
+          <li class="navbar-item"><a href="./detail.html">FAVS</a></li>
+        </ul>
+      </nav>
+      
     </header>
-
-    <nav class="nabvar">
-         <div class="nav-img">  
-            <ul class="container-nav">
-                <li class="nav-item"> <a href="">NEWS</a> </li>
-                <li class="nav-item"> <a href="">FILMS</a></li>
-                <li class="nav-item"> <a href="">SERIES</a></li>
-                <li class="nav-item"> <a href="">DOCS</a></li>
-                <li class="nav-item"> <a href="">KIDZ</a></li>
-                <li class="nav-item"> <a href="">FAVS</a></li>
-            </ul>
-        </div> 
-    </nav>
-    <main class="main">
-        <img src="img/back6.jpg" alt="Main background image">
+      
+        <main>
+          <div class="films">
+            
+          </div>
+          </main>
 
 
-    </main>
 
-    <footer class="footer">
-        <img src="img/texture.jpg" alt="Dargrey background image">
-   
+
+    <footer>
+
+
+
+
 
     </footer>
-    
+
+
+
+
+  
+
+
 </body>
 </html>
