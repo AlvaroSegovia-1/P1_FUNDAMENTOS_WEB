@@ -19,34 +19,6 @@
 
 
 
-/*********************************** NAV *******************************/
-
-nav {
-  background-color: #ACB0BD;
-  padding: 2px;
-  width: 100%;
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-}
-
-.nav-links {
-  padding: 10px 50px;
-}
-
-.navbar-item > a{
-  transition: all 0.3s ease 0s;
-  text-decoration: none;;
-  }
-
-.navbar-item > a:hover{
-  color: #0B3948;
-  }
-
-
 
 
 /********************************* MAIN *************************/
