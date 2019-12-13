@@ -9,6 +9,12 @@
     padding: 30px;
   } 
 
+.logo > img {
+
+  width: 150px;
+  
+}  
+
 button {
     background-color:hsl(220, 25%, 50%);
     border: 0;
