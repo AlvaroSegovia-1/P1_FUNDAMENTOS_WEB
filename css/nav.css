@@ -10,6 +10,7 @@ nav {
     list-style: none;
     display: flex;
     justify-content: space-around;
+    font-size: 20px;
   }
   
   .nav-links {
@@ -22,7 +23,7 @@ nav {
     }
   
   .navbar-item > a:hover{
-    color: #5987CC;
+    color: #1B1B1E;
     }
   
   

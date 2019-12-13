@@ -7,22 +7,24 @@
     justify-content: space-around;
     background: #f7f5f5;
     padding: 30px;
+  
   } 
 
+
 .logo > img {
-  width: 150px;
+  width: 180px;
   border-radius: 12px;
   
 }  
 
 .form #placeholder{
-  font-size: 18px;
+  font-size: 26px;
   background-color: #fff;
   border: solid 1px #e0e2e4;
   border-radius: 4px;
   color: #505254;
   font-size: 16px;
-  margin: 8px 0 20px;
+  margin: 20px 0  20px;
   padding: 12px 14px;
   width: 300px;
   -webkit-appearance: none;
@@ -34,11 +36,11 @@
   border: 1px solid #e0e2e4;
   color: #fff;
   box-sizing: border-box;
-  min-height: 30px;
+  min-height: 44px;
   min-width: 95px;
   padding: 0 10px;
   border-radius: 4px;
-  font-size: 14px;
+  font-size: 16px;
   outline: none;
   text-align: center;
 
@@ -50,11 +52,11 @@ button {
   border: 1px solid #e0e2e4;
   color: #fff;
   box-sizing: border-box;
-  min-height: 30px;
+  min-height: 44px;
   min-width: 95px;
   padding: 0 10px;
   border-radius: 4px;
-  font-size: 14px;
+  font-size: 16px;
   outline: none;
   text-align: center;
 
