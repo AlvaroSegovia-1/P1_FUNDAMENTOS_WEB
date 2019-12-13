@@ -3,24 +3,6 @@
 /************************** MAIN **************************/
 
 
-/************************** HEADER **************************/
-
-.up-header  {
-  display: flex;
-  justify-content: space-around;
-  background: #D0CDD7;
-  border: 2px solid  black;
-  padding: 30px;
-} 
-
-
-
-
-
-
-
-
-
 /********************************* MAIN *************************/
 
 main {
