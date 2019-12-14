@@ -6,7 +6,7 @@
 /********************************* MAIN *************************/
 
 main {
-  background-color: #416165;
+  background-color: #A2BCE0;
 }
 .films {
   display: grid;
@@ -28,6 +28,7 @@ main {
   align-items: auto;
 
 }
+
 
 
 

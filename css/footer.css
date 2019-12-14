@@ -1,0 +1,17 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #EAF0CE;
+    height: 100px;
+    padding-bottom: 20px;
+    border: solid 3px black;
+    align-items: flex-end;
+
+}
+
+footer > div {
+    padding: 10px;
+}
+
+

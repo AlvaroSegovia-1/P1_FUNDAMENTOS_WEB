@@ -4,71 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Main</title>
+    <title>Detail</title>
     <link rel="stylesheet" href="css/body.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/detail_body.css">
+    <link rel="stylesheet" href="css/footer.css">
+
 </head>
 <body>
 
   
-    <header class="header">
+  <header class="header">
 
-        <div class="up-header">
-          
-          <div class="logo">LOGO</div>
-          
-          <div class="form">
-            <form action="/search.html" autocomplete="off" id="search-form" method="get">
-              <input name="q" placeholder="Search here..." size="15" type="text">
-              <input id="button-submit" type="submit" value="Search">
-            </form>
-          </div>
-          <div class="logout">
-            <a href="#"><button>LogOut</button></a>
+      <div class="up-header">
+        
+        <div class="logo"><img src="/img/logo.jpg" alt=""></div>
+        
+        <div class="form">
+          <form action="/search.html" autocomplete="off" id="search-form" method="get">
+            <input id="placeholder" name="" placeholder="Search here..." type="text">
+            <input id="button-submit" type="submit" value="Search">
+          </form>
+        </div>
+        <div class="logout">
+          <a href="#">LogOut</a>
+        </div>
 
-            </a>
-          </div>
-
-      </div>
-    
-
-      <nav>
-        <ul class="nav-links">
-          <li class="navbar-item"><a href="./detail.html">NEWS</a></li>
-          <li class="navbar-item"><a href="./detail.html">FILMS</a></li>
-          <li class="navbar-item"><a href="./detail.html">SERIES</a></li>
-          <li class="navbar-item"><a href="./detail.html">DOCS</a></li>
-          <li class="navbar-item"><a href="./detail.html">KIDZ</a></li>
-          <li class="navbar-item"><a href="./detail.html">FAVS</a></li>
-        </ul>
-      </nav>
-      
-    </header>
-      
-        <main>
-          <div class="films">
-            
-          </div>
-          </main>
-
-
-
-
-    <footer>
-
-
-
-
-
-    </footer>
-
-
-
-
+    </div>
   
+
+    <nav>
+      <ul class="nav-links">
+        <li class="navbar-item"><a href="./detail.html">NEWS</a></li>
+        <li class="navbar-item"><a href="./detail.html">FILMS</a></li>
+        <li class="navbar-item"><a href="./detail.html">SERIES</a></li>
+        <li class="navbar-item"><a href="./detail.html">DOCS</a></li>
+        <li class="navbar-item"><a href="./detail.html">KIDZ</a></li>
+        <li class="navbar-item"><a href="./detail.html">FAVS</a></li>
+      </ul>
+    </nav>
+    
+  </header>
+    
+      <main>
+        <div class="details">
+          
+          <div class="row_1">
+            <div class="data">
+              <ul>
+                <li>Titulo: <p>A hidden life</p></li>
+                <li>Calificación: <p>****</p></li>
+                <li>Año: <p>2019</p></li>
+                <li>Sinopsis: <p>La historia del austriaco Franz Jägerstätter, objetor de conciencia, que se negó a luchar para los nazis durante la Segunda Guerra Mundial y acabó siendo ejecutado por ellos en 1943, para ser declarado mártir y beatificado por la Iglesia.</p></li>
+                <li>Actores: <p>August Diehl, Matthias Schoenaerts, Valerie Pachner, Michael Nyqvist, Jürgen Prochnow, Bruno Ganz, Martin Wuttke, Karl Markovics, Franz Rogowski, Tobias Moretti, Florian Schwienbacher</p></li>
+              </ul>
+            </div>
+  
+                 
+            <div class="trailer">
+                <iframe width="500" height="350" src="https://www.youtube.com/embed/fazZdKr47tA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+
+          </div>
+
+          <div class="row_2">
+              <div class="others-title">
+                <span> PELICULAS SIMILARES</span>
+              </div>
+              <div class="others-images">
+                <img src="/img/secreto.jpg" alt="El secreto de sus ojos">
+                <img src="/img/prisioneros.jpg" alt="Prisioneros">
+                <img src="/img/sicario.jpg" alt="Sicario">
+                <img src="img/blade.jpg" alt="Blade runner 2049">
+              </div>
+            </div>
+
+        </main>
+
+  <footer>
+
+    <div>
+      <a href="https://twitter.com/?lang=es">
+        <img src="/img/twitter.svg" alt="twitter logo">
+      </a>
+    </div>
+    <div>
+      <a href="https://www.instagram.com/?hl=es">
+        <img src="/img/insta.svg" alt="instagram logo">
+      </a>
+    </div>
+    <div>
+      <a href="https://es-es.facebook.com/">
+        <img src="/img/face.svg" alt="Facebook logo">
+      </a>
+    </div>
+
+
+
+  </footer>
+
+
+
+
+
 
 
 </body>
