@@ -16,14 +16,17 @@ nav {
 .nav-links {
     padding: 10px 50px;
   }
-  
+
+.navbar-item > a{
+  color: #2E294E;
+  }
 .navbar-item > a{
     transition: all 0.3s ease 0s;
     text-decoration: none;;
     }
   
 .navbar-item > a:hover{
-    color: #1B1B1E;
+    color: #F46036;
     }
   
 
