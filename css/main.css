@@ -40,7 +40,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: solid 2px black;
+
     padding: 5px;
     
     
