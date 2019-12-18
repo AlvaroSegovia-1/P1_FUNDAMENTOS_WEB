@@ -1,58 +1,79 @@
 
-
-/************************** MAIN **************************/
-
-
-/********************************* MAIN *************************/
-
 main {
   background-color: #A2BCE0;
 }
+
 .films {
-  display: grid;
-  grid-template-columns:  1fr 1fr 1fr;
-  grid-row-gap: 30px;
-  grid-column-gap: 30px;
-  padding: 8em;
-  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: space-around;
+  padding: 80px;
 }
 
 .films div {
-
-  display: flex;
-  justify-content: space-evenly;
+  
+  border: solid 2px black;
 
 }
 
 .films img {
-  align-items: auto;
 
+  width: 280px;
+  height: 380px;
+  margin: 40px;
+  border-radius: 5px;
+  
 }
 
 
 
+/* ************************************** IPAD ******************************************* */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 769px) {
 
 
   .films  {
-
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
-
     padding: 5px;
     
     
   }
   
   .films img {
-
     padding: 20px;
-    height: 280px;
+    height: 400px;
   
   }
   
+
+
+}
+
+
+
+
+/* ****************************************** IPHONE 6/7 && IPHONE X ********************** */
+
+@media only screen and (max-width: 376px) {
+  
+  .nav-links {
+    font-size: 14px;
+    }
+
+
+
+}
+
+
+/* ****************************************** GALAXY S5 *********************************** */
+
+@media only screen and (max-width: 361px) {
+  
+
 
 
 }
