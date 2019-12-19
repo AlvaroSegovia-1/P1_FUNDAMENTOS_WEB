@@ -5,17 +5,13 @@ main {
 
 .films {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  flex-flow: space-around;
+  align-items: center;
+  justify-content: center;
+
   padding: 80px;
 }
 
-.films div {
-  
-  border: solid 2px black;
-
-}
 
 .films img {
 
@@ -35,8 +31,8 @@ main {
 
   .films  {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     padding: 5px;
     
